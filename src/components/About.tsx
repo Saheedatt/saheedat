@@ -11,18 +11,18 @@ const About = () => {
           <h1 className="text-3xl font-bold mb-6">About Me</h1>
           <p className="text-lg text-gray-700">
             Hi, I'm Saheedat Afolabi. I'm a software engineer ( a recent
-            graduate of 
-            <a
+            graduate of {""}
+             <a
               href="https://www.altschoolafrica.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              AltSchool Africa
+               AltSchool Africa
             </a>
             ) and a 400-level Physiotherapy student. I started learning to code
             in 2022 during a long university strike in my country. Since then,
-            I've been learning and building projects with JavaScript,
+            I've been learning and building projects using JavaScript,
             TypeScript, React, Next.js, Nuxt.js, Vue.js, and other technologies
             like Firebase.
           </p>
