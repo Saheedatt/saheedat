@@ -11,7 +11,7 @@ const About = () => {
           <h1 className="text-3xl font-bold mb-6">About Me</h1>
           <p className="text-lg text-gray-700">
             Hi, I'm Saheedat Afolabi. I'm a software engineer ( a recent
-            graduate of
+            graduate of 
             <a
               href="https://www.altschoolafrica.com"
               target="_blank"
