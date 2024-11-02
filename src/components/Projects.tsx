@@ -16,6 +16,13 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
+      title: "My Portfolio",
+      description: "This is my portfolio website.It showcases my skills and some of my projects. I couldn't decide on a design and decided to do something simple. I will be adding new projects over time, so feel free to come back and explore more of what I've been working on.",
+      technologies: "React, TypeScript, TailwindCSS",
+      githubLink: "https://github.com/Saheedatt/saheedat",
+      liveLink:"https://saheedat.vercel.app/",
+    },
+    {
       title: "Scissors",
       description:
         "Scissors is a url-shortening app designed to make urls as short as possible, making links easier to read and use. It's features include qr-code generation, custom url generation, user authentication and analytics.",
@@ -39,14 +46,6 @@ const Projects = () => {
       technologies: "React, JavaScript, Chakra UI, Tailwind CSS, Axios",
       githubLink: "https://github.com/Saheedatt/repowebapp",
       liveLink: "https://repowebapp.vercel.app/",
-    },
-    {
-      title: "Vacaytion",
-      description:
-        "A property listing website. It display a list of available properties to users with additonal information ",
-      technologies: "HTML, Vanilla CSS, JavaScript",
-      githubLink: "https://github.com/Saheedatt/Vacaytion",
-      liveLink: "https://vacaytion.netlify.app/",
     },
   ];
 
