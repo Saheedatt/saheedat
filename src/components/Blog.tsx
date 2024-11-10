@@ -93,7 +93,7 @@ const Blog = () => {
               href="https://dev.to/saheedat"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-6 py-2 bg-[#880d1e] text-white rounded-full hover:bg-[#bd3c56] transition-colors duration-300"
+              className="inline-block px-6 py-2 bg-[#880d1e] text-white rounded-full hover:bg-[#bd3c56] transition-colors duration-300 text-sm md:text-base lg:text-lg"
             >
               Visit my Dev.to profile
             </a>

@@ -91,7 +91,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="mt-12 pt-6 border-t border-pinkish border-opacity-30">
+          <div className="mt-12 pt-6 border-t border-pinkish border-opacity-30 text-sm md:text-base lg:text-lg">
             <div className="flex gap-6">
               <a
                 href="https://www.linkedin.com/in/saheedat-afolabi-1a91b5221/"
