@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="home flex flex-col items-center justify-center min-h-screen p-4 text-center">
-      <div className="absolute top-0 left-0 right-0 flex justify-center">
+      <div className="absolute top-0 left-0 right-0 flex justify-center lg:pt-4">
         <Navigation />
       </div>
       <img

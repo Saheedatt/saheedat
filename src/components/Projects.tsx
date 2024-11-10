@@ -60,7 +60,7 @@ const Projects = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-4">
-      <div className="flex justify-center mb-8">
+      <div className="flex justify-center mb-8 lg:pt-4">
         <Navigation />
       </div>
 
