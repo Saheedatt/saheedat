@@ -17,10 +17,11 @@ const Projects = () => {
   const projects: Project[] = [
     {
       title: "My Portfolio",
-      description: "This is my portfolio website.It showcases my skills and some of my projects. I couldn't decide on a design and decided to do something simple. I will be adding new projects over time, so feel free to come back and explore more of what I've been working on.",
+      description:
+        "This is my portfolio website. It showcases my skills and some of my projects. I couldn't decide on a design and decided to do something simple. I will be adding new projects over time, so feel free to come back and explore more of what I've been working on.",
       technologies: "React, TypeScript, TailwindCSS",
       githubLink: "https://github.com/Saheedatt/saheedat",
-      liveLink:"https://saheedat.vercel.app/",
+      liveLink: "https://saheedat.vercel.app/",
     },
     {
       title: "Scissors",
@@ -47,49 +48,66 @@ const Projects = () => {
       githubLink: "https://github.com/Saheedatt/repowebapp",
       liveLink: "https://repowebapp.vercel.app/",
     },
+    {
+      title: "Vacaytion",
+      description:
+        "Vacaytion is a property listing website that allows users to view properties, their price, and number of rooms. Users can also view property details and book a property. Project was focused mainly on learning to fetch data from an API and display it on the frontend.",
+      technologies: "HTML, CSS, JavaScript",
+      githubLink: "https://github.com/Saheedatt/Vacaytion",
+      liveLink: "https://vacaytion.netlify.app/",
+    },
   ];
 
   return (
-    <div className="max-w-4xl mx-auto px-6">
-       <div className="flex justify-center mb-8">
+    <div className="max-w-4xl mx-auto px-4">
+      <div className="flex justify-center mb-8">
         <Navigation />
       </div>
 
-      <h1 className="text-3xl font-bold mb-8">My Projects</h1>
-      <div className="grid gap-8 md:grid-cols-2">
+      <h1 className="text-3xl text-rose font-pt-serif font-bold mb-8 px-2">
+        My Projects
+      </h1>
+      <div className="grid gap-8 px-2 md:grid-cols-2 pb-6">
         {projects.map((project, index) => (
-          <div key={index} className="border rounded-lg p-6 shadow-sm">
-            <h2 className="text-xl font-semibold mb-3">{project.title}</h2>
+          <div
+            key={index}
+            className="border rounded-lg p-6 shadow-sm border-2 border-pinkish"
+          >
+            <h2 className="text-xl text-rose font-semibold mb-3">
+              {project.title}
+            </h2>
             <p className="text-gray-600 mb-4">{project.description}</p>
             <div className="text-black">
-              Technologies Used
+              <span className="font-medium text-[#bd3c56]">
+                Technologies Used:
+              </span>
               <p className="text-gray-600 mb-4 ">{project.technologies}</p>
             </div>
             <div className="flex gap-4">
               <a
                 href={project.githubLink}
-                className="flex items-center gap-1 text-gray-700 hover:text-blue-500"
+                className="flex items-center gap-1 text-gray-700 hover:text-pinkish"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Github
+                <span className="font-semibold">Github</span>
               </a>
               {project.liveLink && (
                 <a
                   href={project.liveLink}
-                  className="flex items-center gap-1 text-gray-700 hover:text-blue-500"
+                  className="flex items-center gap-1 text-gray-700 hover:text-pinkish"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live Demo
+                  <span className="font-semibold">Live Link</span>
                 </a>
               )}
               {project.videoLink && (
                 <button
                   onClick={() => setVideoUrl(project.videoLink!)}
-                  className="flex items-center gap-1 text-gray-700 hover:text-blue-500"
+                  className="flex items-center gap-1 text-gray-700 hover:text-pinkish"
                 >
-                  Watch Demo
+                  <span className="font-semibold">Watch Demo</span>
                 </button>
               )}
             </div>

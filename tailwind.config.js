@@ -8,9 +8,13 @@ export default {
       colors:{
         pinkish: "#f26a8d",
         rose: "#880d1e",
-      }
+        snow: "#f8f5f5",
+      },
+      fontFamily: {
+        'pt-serif': ['"PT Serif"', 'serif'],
     },
   },
   plugins: [],
+}
 }
 
