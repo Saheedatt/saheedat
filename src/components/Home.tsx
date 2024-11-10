@@ -27,7 +27,7 @@ const Home = () => {
       <img
         src="/flork.png"
         alt="Profile Picture"
-        className="w-64 h-64 mb-6 hover:scale-105 transition-transform duration-300"
+        className="w-64 h-64 mb-6 mt-10 hover:scale-105 transition-transform duration-300"
       />
 
       <h1 className="text-4xl md:text-6xl font-bold mb-6 text-rose">
