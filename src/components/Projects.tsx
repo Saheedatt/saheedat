@@ -30,7 +30,7 @@ const Projects = () => {
       technologies: "Vue, TypeScript, Firebase, TailwindCSS, Vitest",
       githubLink: "https://github.com/Saheedatt/scissors",
       liveLink:
-        "https://scissors-capstone-3jt46m1vm-saheedats-projects.vercel.app/landing",
+        "https://scissors-capstone.vercel.app/landing",
     },
     {
       title: "Our NewsPaper",
