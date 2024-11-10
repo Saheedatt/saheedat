@@ -3,10 +3,12 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Projects from "./components/Projects";
+import Cursor from "./components/Cursor"; 
 
 function App() {
   return(
     <main>
+      <Cursor  />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
