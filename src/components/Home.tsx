@@ -30,7 +30,7 @@ const Home = () => {
         className="w-64 h-64 mb-6 mt-10 hover:scale-105 transition-transform duration-300"
       />
 
-      <h1 className="text-4xl md:text-6xl font-bold mb-6 text-rose">
+      <h1 className="text-4xl md:text-6xl font-pt-serif font-bold mb-6 text-rose">
         {displayText}
         <span className="animate-pulse">|</span>
       </h1>
