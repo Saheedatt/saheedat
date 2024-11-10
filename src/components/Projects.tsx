@@ -64,7 +64,7 @@ const Projects = () => {
         <Navigation />
       </div>
 
-      <h1 className="text-3xl text-rose font-pt-serif font-bold mb-8 px-2">
+      <h1 className="text-2xl md:text-3xl lg:4xl text-rose font-pt-serif font-bold mb-8 px-2">
         My Projects
       </h1>
       <div className="grid gap-8 px-2 md:grid-cols-2 pb-6">
@@ -76,17 +76,17 @@ const Projects = () => {
             <h2 className="text-xl text-rose font-semibold mb-3">
               {project.title}
             </h2>
-            <p className="text-gray-600 mb-4">{project.description}</p>
+            <p className="text-gray-600 mb-4 text-sm md:text-base lg:text-lg">{project.description}</p>
             <div className="text-black">
               <span className="font-medium text-[#bd3c56]">
                 Technologies Used:
               </span>
-              <p className="text-gray-600 mb-4 ">{project.technologies}</p>
+              <p className="text-gray-600 mb-4 text-sm md:text-base lg:text-lg ">{project.technologies}</p>
             </div>
             <div className="flex gap-4">
               <a
                 href={project.githubLink}
-                className="flex items-center gap-1 text-gray-700 hover:text-pinkish"
+                className="flex items-center gap-1 text-gray-700 hover:text-pinkish text-sm md:text-base lg:text-lg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -95,7 +95,7 @@ const Projects = () => {
               {project.liveLink && (
                 <a
                   href={project.liveLink}
-                  className="flex items-center gap-1 text-gray-700 hover:text-pinkish"
+                  className="flex items-center gap-1 text-gray-700 hover:text-pinkish text-sm md:text-base lg:text-lg"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -105,7 +105,7 @@ const Projects = () => {
               {project.videoLink && (
                 <button
                   onClick={() => setVideoUrl(project.videoLink!)}
-                  className="flex items-center gap-1 text-gray-700 hover:text-pinkish"
+                  className="flex items-center gap-1 text-gray-700 hover:text-pinkish text-sm md:text-base lg:text-lg"
                 >
                   <span className="font-semibold">Watch Demo</span>
                 </button>
